@@ -34,8 +34,8 @@ export BLOCKSCOUT_HOST=localhost
 export SECRET_KEY_BASE=zUBYvm+qX1mPn84BElO/tX1ydzMU3VV8DCMR1JqakNkq6hbY+FS/TU/X4XoJbVYE
 mix compile
 
- mix phx.digest
  bash build.sh
+ mix phx.digest
 #mix do ecto.drop, ecto.create, ecto.migrate
 mix do ecto.create, ecto.migrate
 
